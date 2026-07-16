@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanya Kids Collection – Ethnic Wear for the Whole Family</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Poppins:wght@400;500;600;700&family=Mukta:wght@500;600&family=Noto+Sans+Gujarati:wght@600&family=Noto+Sans+Tamil:wght@600&family=Noto+Sans+Telugu:wght@600&family=Noto+Sans+Kannada:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="lang-bar">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="hi">हिंदी</button>
+    <button class="lang-btn" data-lang="gu">ગુજરાતી</button>
+    <button class="lang-btn" data-lang="ta">தமிழ்</button>
+    <button class="lang-btn" data-lang="te">తెలుగు</button>
+    <button class="lang-btn" data-lang="kn">ಕನ್ನಡ</button>
+  </div>
+
+  <div class="marquee"><span data-i18n="marquee">All India Delivery Available | Boys • Girls • Parents Ethnic Wear | All India Delivery Available | Boys • Girls • Parents Ethnic Wear |</span></div>
+
+  <header>
+    <div class="logo-badge">
+      <div class="ring"></div>
+      <div class="ring2"></div>
+      <div class="photo"><img src="assets/images/photo-001.jpg" alt="Tanya Kids Collection logo"></div>
+      <div class="sparkle s1">✨</div>
+      <div class="sparkle s2">✨</div>
+      <div class="sparkle s3">✨</div>
+    </div>
+    <div class="story-row">
+      <div class="story-item">
+        <div class="story-ring"><div class="story-circle">✅</div></div>
+        <div class="story-label">PAYMENT DONE</div>
+      </div>
+      <div class="story-item" onclick="openStory('happy')">
+        <div class="story-ring"><div class="story-circle"><img src="assets/images/photo-002.jpg" alt="HAPPY CUSTOMER"></div></div>
+        <div class="story-label">HAPPY CUSTOMER</div>
+      </div>
+      <div class="story-item" onclick="openStory('reviews')">
+        <div class="story-ring"><div class="story-circle"><img src="assets/images/photo-002.jpg" alt="CUSTOMER REVIEWS"></div></div>
+        <div class="story-label">CUSTOMER REVIEWS</div>
+      </div>
+      <div class="story-item" onclick="openStory('momdaughter')">
+        <div class="story-ring"><div class="story-circle"><img src="assets/images/photo-003.jpg" alt="MOM &amp; DAUGHTER COMBO"></div></div>
+        <div class="story-label">MOM &amp; DAUGHTER COMBO</div>
+      </div>
+      <div class="story-item">
+        <div class="story-ring"><div class="story-circle">🙏</div></div>
+        <div class="story-label">FESTIVAL DRESS</div>
+      </div>
+      <div class="story-item">
+        <div class="story-ring"><div class="story-circle">✔️</div></div>
+        <div class="story-label">ORDER DONE</div>
+      </div>
+      <div class="story-item">
+        <div class="story-ring"><div class="story-circle">👍</div></div>
+        <div class="story-label">ORDER DELIVERED REVIEW</div>
+      </div></div>
+    <div class="brand-name">Tanya Kids Collection</div>
+    <div class="brand-tag" data-i18n="tagline">Ethnic Wear for Boys, Girls &amp; Parents</div>
+    <div class="brand-sub">
+      <span data-i18n="chip1">Boys Wear</span>
+      <span data-i18n="chip2">Girls Wear</span>
+      <span data-i18n="chip3">Parents Collection</span>
+    </div>
+  </header>
+
+  <div class="offers">
+    <div class="offers-card">
+      <div class="offers-title" data-i18n="offersTitle">Premium Dress Offers</div>
+      <div class="offers-sub" data-i18n="offersSub">Best Quality | Trendy Collection | Affordable Prices</div>
+      <div class="offer-grid">
+        <div class="offer-pill"><span class="num">1</span><span data-i18n="offer1">₹550</span></div>
+        <div class="offer-pill"><span class="num">2</span><span data-i18n="offer2">₹950</span></div>
+        <div class="offer-pill"><span class="num">3</span><span data-i18n="offer3">₹1,200</span></div>
+        <div class="offer-pill"><span class="num">4</span><span data-i18n="offer4">₹1,600</span></div>
+      </div>
+      <div class="special-offer" data-i18n="specialOffer">🎁 Special Offer: Buy 4 Dresses &amp; Get 1 Dress FREE!</div>
+    </div>
+  </div>
+
+  <main>
+    <div class="section-title" data-i18n="sectionTitle">Our Collection</div>
+    <div class="section-sub" data-i18n="sectionSub">Tap Order Now on any dress to order via WhatsApp</div>
+
+    <div class="cat-tabs" id="catTabs">
+      <button class="cat-tab" data-cat="boys">Boys Wear</button>
+      <button class="cat-tab active" data-cat="girls">Girls Wear</button>
+      <button class="cat-tab" data-cat="parents">Parents Collection</button>
+      <button class="cat-tab" data-cat="momdaughter">Mom &amp; Daughter Collection</button>
+      <button class="cat-tab" data-cat="familycombo">Full Family Combo Dress</button>
+      <button class="cat-tab" data-cat="women">Women Dress</button>
+      <button class="cat-tab" data-cat="men">Men Dress</button>
+      <button class="cat-tab" data-cat="fatherson">Father &amp; Son Combo Dress</button>
+    </div>
+
+    <div class="cat-empty" id="catEmpty">No dresses in this category yet. Please check back soon or contact us on WhatsApp!</div>
+
+    <div class="grid" id="productGrid">
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-10">
+          <div class="swipe-track">
+          <img src="assets/images/photo-004.jpg" alt="Boys Navy Blue Embroidered Jacket Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-005.jpg" alt="Boys Navy Blue Embroidered Jacket Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-42</div>
+          <div class="name">Boys Navy Blue Embroidered Jacket Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-42%0AName%3A%20Boys%20Navy%20Blue%20Embroidered%20Jacket%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-11">
+          <div class="swipe-track">
+          <img src="assets/images/photo-006.jpg" alt="Boys Pink Lotus Embroidered Jacket Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-007.jpg" alt="Boys Pink Lotus Embroidered Jacket Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-008.jpg" alt="Boys Pink Lotus Embroidered Jacket Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-009.jpg" alt="Boys Pink Lotus Embroidered Jacket Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-43</div>
+          <div class="name">Boys Pink Lotus Embroidered Jacket Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-43%0AName%3A%20Boys%20Pink%20Lotus%20Embroidered%20Jacket%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-12">
+          <div class="swipe-track">
+          <img src="assets/images/photo-010.jpg" alt="Boys Maroon Shirt Shorts Co-ord Set" loading="lazy">
+          <img src="assets/images/photo-011.jpg" alt="Boys Maroon Shirt Shorts Co-ord Set" loading="lazy">
+          <img src="assets/images/photo-012.jpg" alt="Boys Maroon Shirt Shorts Co-ord Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-44</div>
+          <div class="name">Boys Maroon Shirt Shorts Co-ord Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-44%0AName%3A%20Boys%20Maroon%20Shirt%20Shorts%20Co%2Dord%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-13">
+          <div class="swipe-track">
+          <img src="assets/images/photo-013.jpg" alt="Boys Wine Embroidered Kurta Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-014.jpg" alt="Boys Wine Embroidered Kurta Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-015.jpg" alt="Boys Wine Embroidered Kurta Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-45</div>
+          <div class="name">Boys Wine Embroidered Kurta Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-45%0AName%3A%20Boys%20Wine%20Embroidered%20Kurta%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-14">
+          <div class="swipe-track">
+          <img src="assets/images/photo-016.jpg" alt="Boys Gold Kurta Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-017.jpg" alt="Boys Gold Kurta Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-46</div>
+          <div class="name">Boys Gold Kurta Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-46%0AName%3A%20Boys%20Gold%20Kurta%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-15">
+          <div class="swipe-track">
+          <img src="assets/images/photo-018.jpg" alt="Boys Blue Shimmer Kurta Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-019.jpg" alt="Boys Blue Shimmer Kurta Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-47</div>
+          <div class="name">Boys Blue Shimmer Kurta Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-47%0AName%3A%20Boys%20Blue%20Shimmer%20Kurta%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-16">
+          <div class="swipe-track">
+          <img src="assets/images/photo-020.jpg" alt="Boys Purple Kurta Orange Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-021.jpg" alt="Boys Purple Kurta Orange Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-022.jpg" alt="Boys Purple Kurta Orange Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-48</div>
+          <div class="name">Boys Purple Kurta Orange Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-48%0AName%3A%20Boys%20Purple%20Kurta%20Orange%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-17">
+          <div class="swipe-track">
+          <img src="assets/images/photo-023.jpg" alt="Boys Krishna Costume Kurta Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-49</div>
+          <div class="name">Boys Krishna Costume Kurta Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-49%0AName%3A%20Boys%20Krishna%20Costume%20Kurta%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-2">
+          <div class="swipe-track">
+          <img src="assets/images/photo-024.jpg" alt="Boys Kurta Dhoti Set - Purple" loading="lazy">
+          <img src="assets/images/photo-025.jpg" alt="Boys Kurta Dhoti Set - Purple" loading="lazy">
+          <img src="assets/images/photo-026.jpg" alt="Boys Kurta Dhoti Set - Purple" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-39</div>
+          <div class="name">Boys Kurta Dhoti Set - Purple</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-39%0AName%3A%20Boys%20Kurta%20Dhoti%20Set%20%2D%20Purple%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-3">
+          <div class="swipe-track">
+          <img src="assets/images/photo-027.jpg" alt="Boys Kurta Dhoti Set - Peach" loading="lazy">
+          <img src="assets/images/photo-028.jpg" alt="Boys Kurta Dhoti Set - Peach" loading="lazy">
+          <img src="assets/images/photo-029.jpg" alt="Boys Kurta Dhoti Set - Peach" loading="lazy">
+          <img src="assets/images/photo-030.jpg" alt="Boys Kurta Dhoti Set - Peach" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-40</div>
+          <div class="name">Boys Kurta Dhoti Set - Peach</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-40%0AName%3A%20Boys%20Kurta%20Dhoti%20Set%20%2D%20Peach%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-4">
+          <div class="swipe-track">
+          <img src="assets/images/photo-031.jpg" alt="Boys Kurta Dhoti Set - White" loading="lazy">
+          <img src="assets/images/photo-032.jpg" alt="Boys Kurta Dhoti Set - White" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-41</div>
+          <div class="name">Boys Kurta Dhoti Set - White</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-41%0AName%3A%20Boys%20Kurta%20Dhoti%20Set%20%2D%20White%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="card" data-category="boys">
+        <div class="imgwrap swipe" id="swipe-boys-1">
+          <div class="swipe-track">
+          <img src="assets/images/photo-033.jpg" alt="Boys Kurta Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-034.jpg" alt="Boys Kurta Dhoti Set" loading="lazy">
+          <img src="assets/images/photo-035.jpg" alt="Boys Kurta Dhoti Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-38</div>
+          <div class="name">Boys Kurta Dhoti Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-38%0AName%3A%20Boys%20Kurta%20Dhoti%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-29">
+          <div class="swipe-track">
+          <img src="assets/images/photo-036.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-037.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-038.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-039.jpg" alt="Girls Lehenga Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-29</div>
+          <div class="name">Girls Lehenga Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-29%0AName%3A%20Girls%20Lehenga%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-30">
+          <div class="swipe-track">
+          <img src="assets/images/photo-040.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-041.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-042.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-043.jpg" alt="Girls Lehenga Set" loading="lazy">
+          <img src="assets/images/photo-044.jpg" alt="Girls Lehenga Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-30</div>
+          <div class="name">Girls Lehenga Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-30%0AName%3A%20Girls%20Lehenga%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-31">
+          <div class="swipe-track">
+          <img src="assets/images/photo-045.jpg" alt="Girls Frock Set" loading="lazy">
+          <img src="assets/images/photo-046.jpg" alt="Girls Frock Set" loading="lazy">
+          <img src="assets/images/photo-047.jpg" alt="Girls Frock Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-31</div>
+          <div class="name">Girls Frock Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-31%0AName%3A%20Girls%20Frock%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-32">
+          <div class="swipe-track">
+          <img src="assets/images/photo-048.jpg" alt="Girls Designer Lehenga" loading="lazy">
+          <img src="assets/images/photo-049.jpg" alt="Girls Designer Lehenga" loading="lazy">
+          <img src="assets/images/photo-050.jpg" alt="Girls Designer Lehenga" loading="lazy">
+          <img src="assets/images/photo-051.jpg" alt="Girls Designer Lehenga" loading="lazy">
+          <img src="assets/images/photo-052.jpg" alt="Girls Designer Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-32</div>
+          <div class="name">Girls Designer Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-32%0AName%3A%20Girls%20Designer%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-33">
+          <div class="swipe-track">
+          <img src="assets/images/photo-053.jpg" alt="Girls Banarasi Lehenga" loading="lazy">
+          <img src="assets/images/photo-054.jpg" alt="Girls Banarasi Lehenga" loading="lazy">
+          <img src="assets/images/photo-055.jpg" alt="Girls Banarasi Lehenga" loading="lazy">
+          <img src="assets/images/photo-056.jpg" alt="Girls Banarasi Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-33</div>
+          <div class="name">Girls Banarasi Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-33%0AName%3A%20Girls%20Banarasi%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-34">
+          <div class="swipe-track">
+          <img src="assets/images/photo-057.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          <img src="assets/images/photo-058.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          <img src="assets/images/photo-059.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          <img src="assets/images/photo-060.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-34</div>
+          <div class="name">Girls Kanchipuram Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-34%0AName%3A%20Girls%20Kanchipuram%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-35">
+          <div class="swipe-track">
+          <img src="assets/images/photo-061.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          <img src="assets/images/photo-062.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          <img src="assets/images/photo-063.jpg" alt="Girls Kanchipuram Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-35</div>
+          <div class="name">Girls Kanchipuram Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-35%0AName%3A%20Girls%20Kanchipuram%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-36">
+          <div class="swipe-track">
+          <img src="assets/images/photo-064.jpg" alt="Girls Peacock Print Frock" loading="lazy">
+          <img src="assets/images/photo-065.jpg" alt="Girls Peacock Print Frock" loading="lazy">
+          <img src="assets/images/photo-066.jpg" alt="Girls Peacock Print Frock" loading="lazy">
+          <img src="assets/images/photo-067.jpg" alt="Girls Peacock Print Frock" loading="lazy">
+          <img src="assets/images/photo-068.jpg" alt="Girls Peacock Print Frock" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-36</div>
+          <div class="name">Girls Peacock Print Frock</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-36%0AName%3A%20Girls%20Peacock%20Print%20Frock%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-37">
+          <div class="swipe-track">
+          <img src="assets/images/photo-069.jpg" alt="Brother Sister Peacock Set" loading="lazy">
+          <img src="assets/images/photo-070.jpg" alt="Brother Sister Peacock Set" loading="lazy">
+          <img src="assets/images/photo-071.jpg" alt="Brother Sister Peacock Set" loading="lazy">
+          <img src="assets/images/photo-072.jpg" alt="Brother Sister Peacock Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-37</div>
+          <div class="name">Brother Sister Peacock Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-37%0AName%3A%20Brother%20Sister%20Peacock%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-50-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-073.jpg">
+          <img src="assets/images/photo-074.jpg">
+          <img src="assets/images/photo-075.jpg">
+          <img src="assets/images/photo-076.jpg">
+          <img src="assets/images/photo-077.jpg">
+          <img src="assets/images/photo-078.jpg">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-50</div>
+          <div class="name">Mom & Daughter Matching Star Pleated Dress (Multiple Colours)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-50%0AName%3A%20Mom%20%26%20Daughter%20Matching%20Star%20Pleated%20Dress%20%28Multiple%20Colours%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.91-1.26-4.81-4.31-4.96-4.51-.15-.2-1.19-1.58-1.19-3.01s.75-2.13 1.02-2.42c.27-.29.58-.36.78-.36.19 0 .39 0 .55.01.18.01.42-.07.65.5.24.58.81 2 .88 2.15.07.15.11.32.02.52-.09.19-.14.31-.27.48-.14.17-.29.38-.42.51-.14.14-.28.28-.12.56.16.28.71 1.17 1.52 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.27.13.44.19.51.3.07.11.07.63-.16 1.24z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-52-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-079.jpg" alt="Girls Peacock Lehenga Set (Teal)" loading="lazy">
+          <img src="assets/images/photo-080.jpg" alt="Girls Peacock Lehenga Set (Teal)" loading="lazy">
+          <img src="assets/images/photo-081.jpg" alt="Girls Peacock Lehenga Set (Teal)" loading="lazy">
+          <img src="assets/images/photo-082.jpg" alt="Girls Peacock Lehenga Set (Teal)" loading="lazy">
+          <img src="assets/images/photo-083.jpg" alt="Girls Peacock Lehenga Set (Teal)" loading="lazy">
+          <img src="assets/images/photo-084.jpg" alt="Girls Peacock Lehenga Set (Teal)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-52</div>
+          <div class="name">Girls Peacock Lehenga Set (Teal)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-52%0AName%3A%20Girls%20Peacock%20Lehenga%20Set%20%28Teal%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-53-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-085.jpg" alt="Girls Lotus Jacket Frock (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-086.jpg" alt="Girls Lotus Jacket Frock (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-087.jpg" alt="Girls Lotus Jacket Frock (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-088.jpg" alt="Girls Lotus Jacket Frock (Multiple Colours)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-53</div>
+          <div class="name">Girls Lotus Jacket Frock (Multiple Colours)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-53%0AName%3A%20Girls%20Lotus%20Jacket%20Frock%20%28Multiple%20Colours%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-54-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-089.jpg" alt="Girls Pattu Langa Voni Set (Black & Red)" loading="lazy">
+          <img src="assets/images/photo-090.jpg" alt="Girls Pattu Langa Voni Set (Black & Red)" loading="lazy">
+          <img src="assets/images/photo-091.jpg" alt="Girls Pattu Langa Voni Set (Black & Red)" loading="lazy">
+          <img src="assets/images/photo-092.jpg" alt="Girls Pattu Langa Voni Set (Black & Red)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-54</div>
+          <div class="name">Girls Pattu Langa Voni Set (Black & Red)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-54%0AName%3A%20Girls%20Pattu%20Langa%20Voni%20Set%20%28Black%20%26%20Red%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-55-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-085.jpg" alt="Girls Bow Shoulder Peplum Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-086.jpg" alt="Girls Bow Shoulder Peplum Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-087.jpg" alt="Girls Bow Shoulder Peplum Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-088.jpg" alt="Girls Bow Shoulder Peplum Lehenga (Multiple Colours)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-55</div>
+          <div class="name">Girls Bow Shoulder Peplum Lehenga (Multiple Colours)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-55%0AName%3A%20Girls%20Bow%20Shoulder%20Peplum%20Lehenga%20%28Multiple%20Colours%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-56-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-089.jpg" alt="Girls Designer Mirror Work Pattu Lehenga" loading="lazy">
+          <img src="assets/images/photo-090.jpg" alt="Girls Designer Mirror Work Pattu Lehenga" loading="lazy">
+          <img src="assets/images/photo-091.jpg" alt="Girls Designer Mirror Work Pattu Lehenga" loading="lazy">
+          <img src="assets/images/photo-092.jpg" alt="Girls Designer Mirror Work Pattu Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-56</div>
+          <div class="name">Girls Designer Mirror Work Pattu Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-56%0AName%3A%20Girls%20Designer%20Mirror%20Work%20Pattu%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-57-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-093.jpg" alt="Girls Wine Ruffle Peplum Lehenga (Pink Checked Skirt)" loading="lazy">
+          <img src="assets/images/photo-094.jpg" alt="Girls Wine Ruffle Peplum Lehenga (Pink Checked Skirt)" loading="lazy">
+          <img src="assets/images/photo-095.jpg" alt="Girls Wine Ruffle Peplum Lehenga (Pink Checked Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-57</div>
+          <div class="name">Girls Wine Ruffle Peplum Lehenga (Pink Checked Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-57%0AName%3A%20Girls%20Wine%20Ruffle%20Peplum%20Lehenga%20%28Pink%20Checked%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-58-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-096.jpg" alt="Girls Sky Blue Frock with Wine Embroidered Jacket" loading="lazy">
+          <img src="assets/images/photo-097.jpg" alt="Girls Sky Blue Frock with Wine Embroidered Jacket" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-58</div>
+          <div class="name">Girls Sky Blue Frock with Wine Embroidered Jacket</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-58%0AName%3A%20Girls%20Sky%20Blue%20Frock%20with%20Wine%20Embroidered%20Jacket%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-59-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-098.jpg" alt="Girls Red Peplum Temple Work Lehenga" loading="lazy">
+          <img src="assets/images/photo-099.jpg" alt="Girls Red Peplum Temple Work Lehenga" loading="lazy">
+          <img src="assets/images/photo-100.jpg" alt="Girls Red Peplum Temple Work Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-59</div>
+          <div class="name">Girls Red Peplum Temple Work Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-59%0AName%3A%20Girls%20Red%20Peplum%20Temple%20Work%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-60-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-101.jpg" alt="Girls Pink Temple Embroidery Lehenga (Multicolour Skirt)" loading="lazy">
+          <img src="assets/images/photo-102.jpg" alt="Girls Pink Temple Embroidery Lehenga (Multicolour Skirt)" loading="lazy">
+          <img src="assets/images/photo-103.jpg" alt="Girls Pink Temple Embroidery Lehenga (Multicolour Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-60</div>
+          <div class="name">Girls Pink Temple Embroidery Lehenga (Multicolour Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-60%0AName%3A%20Girls%20Pink%20Temple%20Embroidery%20Lehenga%20%28Multicolour%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-61-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-104.jpg" alt="Girls Red Mirror Work Peplum Lehenga (Olive Green Skirt)" loading="lazy">
+          <img src="assets/images/photo-105.jpg" alt="Girls Red Mirror Work Peplum Lehenga (Olive Green Skirt)" loading="lazy">
+          <img src="assets/images/photo-106.jpg" alt="Girls Red Mirror Work Peplum Lehenga (Olive Green Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-61</div>
+          <div class="name">Girls Red Mirror Work Peplum Lehenga (Olive Green Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-61%0AName%3A%20Girls%20Red%20Mirror%20Work%20Peplum%20Lehenga%20%28Olive%20Green%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-62-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-107.jpg" alt="Girls Maroon Floral Jacket Lehenga (Green Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-62</div>
+          <div class="name">Girls Maroon Floral Jacket Lehenga (Green Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-62%0AName%3A%20Girls%20Maroon%20Floral%20Jacket%20Lehenga%20%28Green%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-63-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-108.jpg" alt="Girls Maroon Mirror Work Lehenga (Peach Gold Skirt)" loading="lazy">
+          <img src="assets/images/photo-109.jpg" alt="Girls Maroon Mirror Work Lehenga (Peach Gold Skirt)" loading="lazy">
+          <img src="assets/images/photo-110.jpg" alt="Girls Maroon Mirror Work Lehenga (Peach Gold Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-63</div>
+          <div class="name">Girls Maroon Mirror Work Lehenga (Peach Gold Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-63%0AName%3A%20Girls%20Maroon%20Mirror%20Work%20Lehenga%20%28Peach%20Gold%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-64-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-111.jpg" alt="Girls Bottle Green Temple Work Lehenga (Lime Skirt)" loading="lazy">
+          <img src="assets/images/photo-112.jpg" alt="Girls Bottle Green Temple Work Lehenga (Lime Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-64</div>
+          <div class="name">Girls Bottle Green Temple Work Lehenga (Lime Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-64%0AName%3A%20Girls%20Bottle%20Green%20Temple%20Work%20Lehenga%20%28Lime%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-65-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-113.jpg" alt="Girls Pink Shimmer Saree Style Gown with Belt" loading="lazy">
+          <img src="assets/images/photo-114.jpg" alt="Girls Pink Shimmer Saree Style Gown with Belt" loading="lazy">
+          <img src="assets/images/photo-115.jpg" alt="Girls Pink Shimmer Saree Style Gown with Belt" loading="lazy">
+          <img src="assets/images/photo-116.jpg" alt="Girls Pink Shimmer Saree Style Gown with Belt" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-65</div>
+          <div class="name">Girls Pink Shimmer Saree Style Gown with Belt</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-65%0AName%3A%20Girls%20Pink%20Shimmer%20Saree%20Style%20Gown%20with%20Belt%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-66-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-117.jpg" alt="Girls Red & Purple Pattu Lehenga with Dupatta" loading="lazy">
+          <img src="assets/images/photo-118.jpg" alt="Girls Red & Purple Pattu Lehenga with Dupatta" loading="lazy">
+          <img src="assets/images/photo-119.jpg" alt="Girls Red & Purple Pattu Lehenga with Dupatta" loading="lazy">
+          <img src="assets/images/photo-120.jpg" alt="Girls Red & Purple Pattu Lehenga with Dupatta" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-66</div>
+          <div class="name">Girls Red & Purple Pattu Lehenga with Dupatta</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-66%0AName%3A%20Girls%20Red%20%26%20Purple%20Pattu%20Lehenga%20with%20Dupatta%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-67-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-121.jpg" alt="Girls Teal & Yellow One Shoulder Pattu Lehenga" loading="lazy">
+          <img src="assets/images/photo-122.jpg" alt="Girls Teal & Yellow One Shoulder Pattu Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-67</div>
+          <div class="name">Girls Teal & Yellow One Shoulder Pattu Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-67%0AName%3A%20Girls%20Teal%20%26%20Yellow%20One%20Shoulder%20Pattu%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-68-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-123.jpg" alt="Girls Red Floral Embroidered Gown with Attached Saree Drape" loading="lazy">
+          <img src="assets/images/photo-124.jpg" alt="Girls Red Floral Embroidered Gown with Attached Saree Drape" loading="lazy">
+          <img src="assets/images/photo-125.jpg" alt="Girls Red Floral Embroidered Gown with Attached Saree Drape" loading="lazy">
+          <img src="assets/images/photo-126.jpg" alt="Girls Red Floral Embroidered Gown with Attached Saree Drape" loading="lazy">
+          <img src="assets/images/photo-127.jpg" alt="Girls Red Floral Embroidered Gown with Attached Saree Drape" loading="lazy">
+          <img src="assets/images/photo-128.jpg" alt="Girls Red Floral Embroidered Gown with Attached Saree Drape" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-68</div>
+          <div class="name">Girls Red Floral Embroidered Gown with Attached Saree Drape</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-68%0AName%3A%20Girls%20Red%20Floral%20Embroidered%20Gown%20with%20Attached%20Saree%20Drape%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-69-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-129.jpg" alt="Girls Pink Gold Shimmer Peplum Lehenga (Tie-Dye Skirt)" loading="lazy">
+          <img src="assets/images/photo-130.jpg" alt="Girls Pink Gold Shimmer Peplum Lehenga (Tie-Dye Skirt)" loading="lazy">
+          <img src="assets/images/photo-131.jpg" alt="Girls Pink Gold Shimmer Peplum Lehenga (Tie-Dye Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-69</div>
+          <div class="name">Girls Pink Gold Shimmer Peplum Lehenga (Tie-Dye Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-69%0AName%3A%20Girls%20Pink%20Gold%20Shimmer%20Peplum%20Lehenga%20%28Tie-Dye%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-70-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-132.jpg" alt="Girls Maroon Mirror Work Peplum Lehenga (Ombre Skirt)" loading="lazy">
+          <img src="assets/images/photo-133.jpg" alt="Girls Maroon Mirror Work Peplum Lehenga (Ombre Skirt)" loading="lazy">
+          <img src="assets/images/photo-134.jpg" alt="Girls Maroon Mirror Work Peplum Lehenga (Ombre Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-70</div>
+          <div class="name">Girls Maroon Mirror Work Peplum Lehenga (Ombre Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-70%0AName%3A%20Girls%20Maroon%20Mirror%20Work%20Peplum%20Lehenga%20%28Ombre%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-71-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-135.jpg" alt="Girls Magenta Peplum Lehenga (Gold Sequin Border)" loading="lazy">
+          <img src="assets/images/photo-136.jpg" alt="Girls Magenta Peplum Lehenga (Gold Sequin Border)" loading="lazy">
+          <img src="assets/images/photo-137.jpg" alt="Girls Magenta Peplum Lehenga (Gold Sequin Border)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-71</div>
+          <div class="name">Girls Magenta Peplum Lehenga (Gold Sequin Border)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-71%0AName%3A%20Girls%20Magenta%20Peplum%20Lehenga%20%28Gold%20Sequin%20Border%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-72-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-138.jpg" alt="Girls Mauve Pink Embroidered Gown with Saree Drape (Gold Skirt)" loading="lazy">
+          <img src="assets/images/photo-139.jpg" alt="Girls Mauve Pink Embroidered Gown with Saree Drape (Gold Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-72</div>
+          <div class="name">Girls Mauve Pink Embroidered Gown with Saree Drape (Gold Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-72%0AName%3A%20Girls%20Mauve%20Pink%20Embroidered%20Gown%20with%20Saree%20Drape%20%28Gold%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-73-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-140.jpg" alt="Girls Sky Blue Tassel Peplum Lehenga (Silver Zari Skirt)" loading="lazy">
+          <img src="assets/images/photo-141.jpg" alt="Girls Sky Blue Tassel Peplum Lehenga (Silver Zari Skirt)" loading="lazy">
+          <img src="assets/images/photo-142.jpg" alt="Girls Sky Blue Tassel Peplum Lehenga (Silver Zari Skirt)" loading="lazy">
+          <img src="assets/images/photo-143.jpg" alt="Girls Sky Blue Tassel Peplum Lehenga (Silver Zari Skirt)" loading="lazy">
+          <img src="assets/images/photo-144.jpg" alt="Girls Sky Blue Tassel Peplum Lehenga (Silver Zari Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-73</div>
+          <div class="name">Girls Sky Blue Tassel Peplum Lehenga (Silver Zari Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-73%0AName%3A%20Girls%20Sky%20Blue%20Tassel%20Peplum%20Lehenga%20%28Silver%20Zari%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-74-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-145.jpg" alt="Girls Purple Floral Peplum Lehenga (Multicolour Skirt)" loading="lazy">
+          <img src="assets/images/photo-146.jpg" alt="Girls Purple Floral Peplum Lehenga (Multicolour Skirt)" loading="lazy">
+          <img src="assets/images/photo-147.jpg" alt="Girls Purple Floral Peplum Lehenga (Multicolour Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-74</div>
+          <div class="name">Girls Purple Floral Peplum Lehenga (Multicolour Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-74%0AName%3A%20Girls%20Purple%20Floral%20Peplum%20Lehenga%20%28Multicolour%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-75-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-148.jpg" alt="Girls Purple Gown with Attached Saree Drape (Teal Gold Skirt)" loading="lazy">
+          <img src="assets/images/photo-149.jpg" alt="Girls Purple Gown with Attached Saree Drape (Teal Gold Skirt)" loading="lazy">
+          <img src="assets/images/photo-150.jpg" alt="Girls Purple Gown with Attached Saree Drape (Teal Gold Skirt)" loading="lazy">
+          <img src="assets/images/photo-151.jpg" alt="Girls Purple Gown with Attached Saree Drape (Teal Gold Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-75</div>
+          <div class="name">Girls Purple Gown with Attached Saree Drape (Teal Gold Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-75%0AName%3A%20Girls%20Purple%20Gown%20with%20Attached%20Saree%20Drape%20%28Teal%20Gold%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-76-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-152.jpg" alt="Girls Teal Green Temple Embroidery Lehenga (Navy Checked Skirt)" loading="lazy">
+          <img src="assets/images/photo-153.jpg" alt="Girls Teal Green Temple Embroidery Lehenga (Navy Checked Skirt)" loading="lazy">
+          <img src="assets/images/photo-154.jpg" alt="Girls Teal Green Temple Embroidery Lehenga (Navy Checked Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-76</div>
+          <div class="name">Girls Teal Green Temple Embroidery Lehenga (Navy Checked Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-76%0AName%3A%20Girls%20Teal%20Green%20Temple%20Embroidery%20Lehenga%20%28Navy%20Checked%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-77-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-155.jpg" alt="Girls Magenta Pink Ruffle Peplum Lehenga (Pearl Border)" loading="lazy">
+          <img src="assets/images/photo-156.jpg" alt="Girls Magenta Pink Ruffle Peplum Lehenga (Pearl Border)" loading="lazy">
+          <img src="assets/images/photo-157.jpg" alt="Girls Magenta Pink Ruffle Peplum Lehenga (Pearl Border)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-77</div>
+          <div class="name">Girls Magenta Pink Ruffle Peplum Lehenga (Pearl Border)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-77%0AName%3A%20Girls%20Magenta%20Pink%20Ruffle%20Peplum%20Lehenga%20%28Pearl%20Border%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-78-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-158.jpg" alt="Girls Maroon & Orange Rosette Peplum Lehenga" loading="lazy">
+          <img src="assets/images/photo-159.jpg" alt="Girls Maroon & Orange Rosette Peplum Lehenga" loading="lazy">
+          <img src="assets/images/photo-160.jpg" alt="Girls Maroon & Orange Rosette Peplum Lehenga" loading="lazy">
+          <img src="assets/images/photo-161.jpg" alt="Girls Maroon & Orange Rosette Peplum Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-78</div>
+          <div class="name">Girls Maroon & Orange Rosette Peplum Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-78%0AName%3A%20Girls%20Maroon%20%26%20Orange%20Rosette%20Peplum%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-79-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-162.jpg" alt="Girls Royal Blue Rosette Peplum Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-79</div>
+          <div class="name">Girls Royal Blue Rosette Peplum Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-79%0AName%3A%20Girls%20Royal%20Blue%20Rosette%20Peplum%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-80-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-163.jpg" alt="Girls Red & Orange Rosette Peplum Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-80</div>
+          <div class="name">Girls Red & Orange Rosette Peplum Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-80%0AName%3A%20Girls%20Red%20%26%20Orange%20Rosette%20Peplum%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-81-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-164.jpg" alt="Girls Green Rosette Peplum Lehenga" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-81</div>
+          <div class="name">Girls Green Rosette Peplum Lehenga</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-81%0AName%3A%20Girls%20Green%20Rosette%20Peplum%20Lehenga%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-82-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-165.jpg" alt="Girls Navy Blue Net Lehenga with Saree Drape" loading="lazy">
+          <img src="assets/images/photo-166.jpg" alt="Girls Navy Blue Net Lehenga with Saree Drape" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-82</div>
+          <div class="name">Girls Navy Blue Net Lehenga with Saree Drape</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-82%0AName%3A%20Girls%20Navy%20Blue%20Net%20Lehenga%20with%20Saree%20Drape%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-83-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-167.jpg" alt="Girls Maroon Net Lehenga with Saree Drape" loading="lazy">
+          <img src="assets/images/photo-168.jpg" alt="Girls Maroon Net Lehenga with Saree Drape" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-83</div>
+          <div class="name">Girls Maroon Net Lehenga with Saree Drape</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-83%0AName%3A%20Girls%20Maroon%20Net%20Lehenga%20with%20Saree%20Drape%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-84-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-169.jpg" alt="Girls Green Net Drape Lehenga (Maroon Skirt)" loading="lazy">
+          <img src="assets/images/photo-170.jpg" alt="Girls Green Net Drape Lehenga (Maroon Skirt)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-84</div>
+          <div class="name">Girls Green Net Drape Lehenga (Maroon Skirt)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-84%0AName%3A%20Girls%20Green%20Net%20Drape%20Lehenga%20%28Maroon%20Skirt%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-85-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-171.jpg" alt="Girls Royal Blue Blouse Lehenga (Teal Net Dupatta)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-85</div>
+          <div class="name">Girls Royal Blue Blouse Lehenga (Teal Net Dupatta)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-85%0AName%3A%20Girls%20Royal%20Blue%20Blouse%20Lehenga%20%28Teal%20Net%20Dupatta%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-86-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-172.jpg" alt="Girls Purple Floral Brocade Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-173.jpg" alt="Girls Purple Floral Brocade Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-174.jpg" alt="Girls Purple Floral Brocade Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-175.jpg" alt="Girls Purple Floral Brocade Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-164.jpg" alt="Girls Purple Floral Brocade Lehenga (Multiple Colours)" loading="lazy">
+          <img src="assets/images/photo-162.jpg" alt="Girls Purple Floral Brocade Lehenga (Multiple Colours)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-86</div>
+          <div class="name">Girls Purple Floral Brocade Lehenga (Multiple Colours)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-86%0AName%3A%20Girls%20Purple%20Floral%20Brocade%20Lehenga%20%28Multiple%20Colours%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="girls">
+        <div class="imgwrap swipe" id="swipe-87-girls">
+          <div class="swipe-track">
+          <img src="assets/images/photo-176.jpg" alt="Girls Pink Pattu Lehenga (Multiple Blouse Options)" loading="lazy">
+          <img src="assets/images/photo-177.jpg" alt="Girls Pink Pattu Lehenga (Multiple Blouse Options)" loading="lazy">
+          <img src="assets/images/photo-178.jpg" alt="Girls Pink Pattu Lehenga (Multiple Blouse Options)" loading="lazy">
+          <img src="assets/images/photo-179.jpg" alt="Girls Pink Pattu Lehenga (Multiple Blouse Options)" loading="lazy">
+          <img src="assets/images/photo-180.jpg" alt="Girls Pink Pattu Lehenga (Multiple Blouse Options)" loading="lazy">
+          <img src="assets/images/photo-181.jpg" alt="Girls Pink Pattu Lehenga (Multiple Blouse Options)" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-87</div>
+          <div class="name">Girls Pink Pattu Lehenga (Multiple Blouse Options)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-87%0AName%3A%20Girls%20Pink%20Pattu%20Lehenga%20%28Multiple%20Blouse%20Options%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="momdaughter">
+        <div class="imgwrap swipe" id="swipe-50-women">
+          <div class="swipe-track">
+          <img src="assets/images/photo-073.jpg">
+          <img src="assets/images/photo-074.jpg">
+          <img src="assets/images/photo-075.jpg">
+          <img src="assets/images/photo-076.jpg">
+          <img src="assets/images/photo-077.jpg">
+          <img src="assets/images/photo-078.jpg">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-50</div>
+          <div class="name">Mom & Daughter Matching Star Pleated Dress (Multiple Colours)</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-50%0AName%3A%20Mom%20%26%20Daughter%20Matching%20Star%20Pleated%20Dress%20%28Multiple%20Colours%29%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.91-1.26-4.81-4.31-4.96-4.51-.15-.2-1.19-1.58-1.19-3.01s.75-2.13 1.02-2.42c.27-.29.58-.36.78-.36.19 0 .39 0 .55.01.18.01.42-.07.65.5.24.58.81 2 .88 2.15.07.15.11.32.02.52-.09.19-.14.31-.27.48-.14.17-.29.38-.42.51-.14.14-.28.28-.12.56.16.28.71 1.17 1.52 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.27.13.44.19.51.3.07.11.07.63-.16 1.24z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card" data-category="momdaughter">
+        <div class="imgwrap swipe" id="swipe-51">
+          <div class="swipe-track">
+          <img src="assets/images/photo-182.jpg" alt="Mom &amp; Daughter Matching Set" loading="lazy">
+          <img src="assets/images/photo-183.jpg" alt="Mom &amp; Daughter Matching Set" loading="lazy">
+          <img src="assets/images/photo-184.jpg" alt="Mom &amp; Daughter Matching Set" loading="lazy">
+          <img src="assets/images/photo-185.jpg" alt="Mom &amp; Daughter Matching Set" loading="lazy">
+          </div>
+          <div class="swipe-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          </div>
+        </div>
+        <div class="info">
+          <div class="code">TKC-51</div>
+          <div class="name">Mom &amp; Daughter Matching Silk Saree &amp; Lehenga Set</div>
+          <a class="order-btn" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20want%20to%20order%20this%20dress%3A%0ACode%3A%20TKC-51%0AName%3A%20Mom%20%26%20Daughter%20Matching%20Silk%20Saree%20%26%20Lehenga%20Set%0A%28Please%20share%20price%2C%20size%20options%20%26%20photo%20confirmation%29" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+            <span class="order-btn-text" data-i18n="orderBtn">Order Now</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="delivery-banner">
+      <span class="truck">🚚</span> <span data-i18n="deliveryBanner">All India Delivery Available</span>
+    </div>
+  </main>
+
+  <footer>
+    <span class="fname">Tanya Kids Collection</span>
+    <span data-i18n="footer">Boys • Girls • Parents Ethnic Wear — Tap WhatsApp button to order</span>
+  </footer>
+
+  <div class="story-modal" id="storyModal">
+    <div class="story-modal-bar" id="storyModalBar"></div>
+    <button class="story-modal-close" onclick="closeStory()">✕</button>
+    <div class="story-modal-img-wrap"><img id="storyModalImg" src="" alt=""></div>
+    <button class="story-modal-nav prev" onclick="storyNav(-1)" aria-label="Previous"></button>
+    <button class="story-modal-nav next" onclick="storyNav(1)" aria-label="Next"></button>
+    <div class="story-modal-caption" id="storyModalCaption"></div>
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">✕</button>
+    <div class="lightbox-track" id="lightboxTrack"></div>
+    <div class="lightbox-dots" id="lightboxDots"></div>
+  </div>
+
+  <a class="float-whatsapp" href="https://wa.me/916281998364?text=Hi%20Tanya%20Kids%20Collection%2C%20I%20am%20interested%20in%20your%20dresses.%20Please%20share%20more%20details." target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.72.45 3.39 1.31 4.86L2 22l5.35-1.4a9.9 9.9 0 0 0 4.69 1.19h.01c5.46 0 9.9-4.45 9.9-9.91C22 6.45 17.5 2 12.04 2zm5.79 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.19-4.94-4.38-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.6.83 2.06.9 2.21.07.15.12.32.02.51-.1.19-.15.3-.29.46-.15.16-.31.36-.44.48-.15.14-.3.29-.13.58.17.29.76 1.26 1.64 2.04 1.13 1 2.08 1.32 2.37 1.47.29.15.46.13.63-.08.17-.2.72-.85.92-1.14.19-.29.38-.24.63-.15.26.1 1.65.79 1.94.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+  </a>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
